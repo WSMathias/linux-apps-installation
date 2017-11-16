@@ -18,7 +18,7 @@ $ sudo ln -s /usr/local/share/phantomjs-2.1.1-linux-x86_64/bin/phantomjs  /usr/l
 ```
 Check installed version of PhantomJs:
 ```bash
-$ phantomjs
+$ phantomjs -v
 ```
 Delete tar file to save memory:
 ```bash 
