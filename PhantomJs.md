@@ -16,6 +16,10 @@ Create symbolic link between system bin and phantomJs to access it in terminal:
 ```bash
 $ sudo ln -s /opt/phantomjs-2.1.1-linux-x86_64/bin/phantomjs  /usr/bin/
 ```
+Dependencies:
+```bash
+$ sudo apt-get install build-essential chrpath libssl-dev libxft-dev libfreetype6-dev libfreetype6 libfontconfig1-dev libfontconfig1
+```
 Check installed version of PhantomJs:
 ```bash
 $ phantomjs -v
