@@ -20,7 +20,7 @@ Delete tar file to save memory:
 ```bash
 $ rm postman.tar.gz
 ````
-Create Desktop Icon:
+Create Desktop Entry:
 
 ```bash
 $ cat > ~/.local/share/applications/postman.desktop <<EOL
