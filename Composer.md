@@ -4,6 +4,7 @@ Composer on Linux
 
 </h1>
 Download Composer:
+
 ```bash
 $ php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 ```
@@ -15,7 +16,7 @@ Installing composer:
 ```bash
 $ php composer-setup.php
 $ php -r "unlink('composer-setup.php');"
-
+```
 Making it accessible from anywhere in the system:
 ```bash
 $ sudo mv composer.phar /usr/lib/composer
