@@ -33,5 +33,5 @@ php codecept.phar run functional --steps
 ```
 To run Specified test:
 ```bash
-php codecept.phar run functional/<file_name> --steps //to run specifictest
+php codecept.phar run functional/<file_name> --steps
 ```
