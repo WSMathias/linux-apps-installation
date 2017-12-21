@@ -5,5 +5,5 @@ Guide to install various apps/softwares in Linux environment.
 2) <a href="/apps/Postman.md">Postman</a>
 3) <a href="/apps/Composer.md">Compose</a>
 4) <a href="/apps/CodeCeption.md">CodeCeption</a>
-5) <a href="/apps/NodeJs.md">NodeJs</a>
+5) <a href="https://nodejs.org/en/download/package-manager/">NodeJs</a>
 
