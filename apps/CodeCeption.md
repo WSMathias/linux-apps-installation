@@ -6,32 +6,31 @@ CodeCeption on Linux
 
 To download Codeception in the Root directory of web site:
 ```bash
-wget http://codeception.com/codecept.phar
+$ wget http://codeception.com/codecept.phar
 ```
 
 To verify:
 ```bash
-php codecept.phar
+$ php codecept.phar
 ```
 
 To setup environment:
 ```bash
-php codecept.phar bootstrap
+$ php codecept.phar bootstrap
 ```
 to generate Test:
-
 ```bash
-php codecept.phar generate:< cest or cept> functional <file_name>
-```
-cest is for oops code
-cept is for procedural code
-ex: <file_name> = frmEntryTest
+$ php codecept.phar generate:<code_type>cest functional <file_name>
+````
+code_type = cest for oops & cept for procedural
+file_name like frmEntryTest
+test_type = functional or acceptance
 
 To run All test at a once:
 ```bash
-php codecept.phar run functional --steps
+$ php codecept.phar run functional --steps
 ```
 To run Specified test:
 ```bash
-php codecept.phar run functional/<file_name> --steps
+$ php codecept.phar run functional/<file_name> --steps
 ```
