@@ -1,7 +1,7 @@
 #!/bin/bash
 wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
-tar -xzf postman.tar.gz -C /opt
-ln -s /opt/Postman/Postman /usr/bin/postman
+sudo tar -xzf postman.tar.gz -C /opt
+sudo ln -s /opt/Postman/Postman /usr/bin/postman
 rm postman.tar.gz
 cat > ~/.local/share/applications/postman.desktop <<EOL
 [Desktop Entry]
