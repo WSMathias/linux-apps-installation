@@ -6,4 +6,4 @@ Guide to install various apps/softwares in Linux environment.
 3) <a href="/apps/Composer.md">Compose</a>
 4) <a href="/apps/CodeCeption.md">CodeCeption</a>
 5) <a href="https://nodejs.org/en/download/package-manager/">NodeJs</a>
-
+6) [Nginx](apps/Nginx.md)
