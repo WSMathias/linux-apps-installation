@@ -20,6 +20,11 @@ Delete tar file to save memory:
 ```bash
 rm postman.tar.gz
 ````
+Chnage owner (assuming group name is same as username name)
+```bash
+sudo chown -R $USER:$USER /opt/Postman
+```
+
 Create Desktop Entry:
 
 ```bash
