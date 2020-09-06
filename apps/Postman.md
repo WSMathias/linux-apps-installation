@@ -14,7 +14,7 @@ sudo tar -xzf postman.tar.gz -C /opt
 ```
 Create symbolic link between system bin and postman to access it in terminal:
 ```bash
-sudo ln -s /opt/Postman/Postman /usr/bin/postman
+sudo ln -s /opt/Postman/Postman /usr/local/bin/postman
 ```
 Delete tar file to save memory:
 ```bash
