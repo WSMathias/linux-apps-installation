@@ -6,7 +6,7 @@ Postman on Linux
 
 Download postman:
 ```bash
-$ wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
+wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
 ```
 Extract postman:
 ```bash
